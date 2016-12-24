@@ -1,0 +1,53 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Char/.nvm/versions/node/v7.3.0/bin/node',
+1 verbose cli   '/Users/Char/.nvm/versions/node/v7.3.0/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   '@char/how-to-npm' ]
+2 info using npm@4.0.5
+3 info using node@v7.3.0
+4 silly mapToRegistry name @char/how-to-npm
+5 silly mapToRegistry scope (from package name) @char
+6 verbose mapToRegistry no registry URL found in name for scope @char
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry http://localhost:15443/
+9 silly mapToRegistry data Result {
+9 silly mapToRegistry   raw: '@char/how-to-npm',
+9 silly mapToRegistry   scope: '@char',
+9 silly mapToRegistry   escapedName: '@char%2fhow-to-npm',
+9 silly mapToRegistry   name: '@char/how-to-npm',
+9 silly mapToRegistry   rawSpec: '',
+9 silly mapToRegistry   spec: 'latest',
+9 silly mapToRegistry   type: 'tag' }
+10 silly mapToRegistry uri http://localhost:15443/@char%2fhow-to-npm
+11 verbose request uri http://localhost:15443/@char%2fhow-to-npm
+12 verbose request no auth needed
+13 info attempt registry request try #1 at 11:49:37 AM
+14 verbose request id 3a5725a5d13eb3b3
+15 http request GET http://localhost:15443/@char%2fhow-to-npm
+16 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
+17 info attempt registry request try #2 at 11:49:47 AM
+18 http request GET http://localhost:15443/@char%2fhow-to-npm
+19 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 127.0.0.1:15443
+20 info attempt registry request try #3 at 11:50:47 AM
+21 http request GET http://localhost:15443/@char%2fhow-to-npm
+22 silly get cb [ 304, undefined ]
+23 verbose stack Error: failed to fetch from registry: http://localhost:15443/@char%2fhow-to-npm
+23 verbose stack     at /Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/lib/cache/caching-client.js:164:27
+23 verbose stack     at /Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/lib/cache/caching-client.js:53:8
+23 verbose stack     at f (/Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/once/once.js:25:25)
+23 verbose stack     at /Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:89:10
+23 verbose stack     at /Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:103:12
+23 verbose stack     at f (/Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/once/once.js:25:25)
+23 verbose stack     at CachingRegistryClient.<anonymous> (/Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:224:20)
+23 verbose stack     at Request._callback (/Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:201:20)
+23 verbose stack     at self.callback (/Users/Char/.nvm/versions/node/v7.3.0/lib/node_modules/npm/node_modules/request/request.js:186:22)
+23 verbose stack     at emitOne (events.js:101:20)
+24 verbose cwd /Users/Char/nodejs/nodeschool/how-to-npm
+25 error Darwin 16.3.0
+26 error argv "/Users/Char/.nvm/versions/node/v7.3.0/bin/node" "/Users/Char/.nvm/versions/node/v7.3.0/bin/npm" "view" "@char/how-to-npm"
+27 error node v7.3.0
+28 error npm  v4.0.5
+29 error failed to fetch from registry: http://localhost:15443/@char%2fhow-to-npm
+30 error If you need help, you may report this error at:
+30 error     <https://github.com/npm/npm/issues>
+31 verbose exit [ 1, true ]

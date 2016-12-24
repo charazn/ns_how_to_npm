@@ -1,0 +1,27 @@
+{
+  "name": "@char/how-to-npm",
+  "version": "1.0.0",
+  "description": "how to npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/charazn/ns_how_to_npm.git"
+  },
+  "keywords": [
+    "howto",
+    "npm"
+  ],
+  "author": "char aznable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charazn/ns_how_to_npm/issues"
+  },
+  "homepage": "https://github.com/charazn/ns_how_to_npm#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  },
+  "devDependencies": {}
+}
